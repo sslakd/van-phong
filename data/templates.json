@@ -7,7 +7,14 @@
     "category": "tai-chinh",
     "subcategory": "ngan-sach",
     "format": "excel",
-    "tags": ["ngân sách", "tài chính", "thu chi", "cá nhân", "budget", "theo dõi"],
+    "tags": [
+      "ngân sách",
+      "tài chính",
+      "thu chi",
+      "cá nhân",
+      "budget",
+      "theo dõi"
+    ],
     "source": "vertex42.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/personal-budget.xlsx",
     "icon": "💰",
@@ -21,7 +28,14 @@
     "category": "kinh-doanh",
     "subcategory": "hoa-don",
     "format": "excel",
-    "tags": ["hóa đơn", "invoice", "bán hàng", "thuế", "VAT", "thanh toán"],
+    "tags": [
+      "hóa đơn",
+      "invoice",
+      "bán hàng",
+      "thuế",
+      "VAT",
+      "thanh toán"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/invoice.xlsx",
     "icon": "🧾",
@@ -35,7 +49,14 @@
     "category": "nhan-su",
     "subcategory": "cham-cong",
     "format": "excel",
-    "tags": ["chấm công", "timesheet", "giờ làm", "OT", "tăng ca", "nhân sự"],
+    "tags": [
+      "chấm công",
+      "timesheet",
+      "giờ làm",
+      "OT",
+      "tăng ca",
+      "nhân sự"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/timesheet.xlsx",
     "icon": "⏰",
@@ -49,7 +70,14 @@
     "category": "quan-ly-du-an",
     "subcategory": "gantt",
     "format": "excel",
-    "tags": ["gantt", "dự án", "project", "tiến độ", "milestone", "planning"],
+    "tags": [
+      "gantt",
+      "dự án",
+      "project",
+      "tiến độ",
+      "milestone",
+      "planning"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/gantt.xlsx",
     "icon": "📊",
@@ -63,7 +91,14 @@
     "category": "tai-chinh",
     "subcategory": "bao-cao",
     "format": "excel",
-    "tags": ["P&L", "lợi nhuận", "doanh thu", "chi phí", "báo cáo tài chính", "KPI"],
+    "tags": [
+      "P&L",
+      "lợi nhuận",
+      "doanh thu",
+      "chi phí",
+      "báo cáo tài chính",
+      "KPI"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/pnl.xlsx",
     "icon": "📈"
@@ -76,7 +111,13 @@
     "category": "tai-chinh",
     "subcategory": "dong-tien",
     "format": "excel",
-    "tags": ["dòng tiền", "cash flow", "thanh khoản", "tài chính", "dự báo"],
+    "tags": [
+      "dòng tiền",
+      "cash flow",
+      "thanh khoản",
+      "tài chính",
+      "dự báo"
+    ],
     "source": "vertex42.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/cashflow.xlsx",
     "icon": "💵"
@@ -89,7 +130,14 @@
     "category": "nhan-su",
     "subcategory": "luong",
     "format": "excel",
-    "tags": ["lương", "payroll", "BHXH", "BHYT", "thuế TNCN", "bảo hiểm"],
+    "tags": [
+      "lương",
+      "payroll",
+      "BHXH",
+      "BHYT",
+      "thuế TNCN",
+      "bảo hiểm"
+    ],
     "source": "custom",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/payroll.xlsx",
     "icon": "💳",
@@ -103,7 +151,14 @@
     "category": "kinh-doanh",
     "subcategory": "kho",
     "format": "excel",
-    "tags": ["kho", "hàng tồn", "inventory", "nhập kho", "xuất kho", "giá vốn"],
+    "tags": [
+      "kho",
+      "hàng tồn",
+      "inventory",
+      "nhập kho",
+      "xuất kho",
+      "giá vốn"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/inventory.xlsx",
     "icon": "📦"
@@ -116,7 +171,13 @@
     "category": "nhan-su",
     "subcategory": "danh-gia",
     "format": "excel",
-    "tags": ["KPI", "đánh giá", "nhân viên", "hiệu suất", "scorecard"],
+    "tags": [
+      "KPI",
+      "đánh giá",
+      "nhân viên",
+      "hiệu suất",
+      "scorecard"
+    ],
     "source": "projectmanager.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/kpi.xlsx",
     "icon": "🎯"
@@ -129,7 +190,13 @@
     "category": "quan-ly-du-an",
     "subcategory": "ngan-sach",
     "format": "excel",
-    "tags": ["ngân sách", "dự án", "chi phí", "budget", "variance"],
+    "tags": [
+      "ngân sách",
+      "dự án",
+      "chi phí",
+      "budget",
+      "variance"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/project-budget.xlsx",
     "icon": "📋"
@@ -142,7 +209,14 @@
     "category": "quan-ly-du-an",
     "subcategory": "task",
     "format": "excel",
-    "tags": ["task", "to-do", "công việc", "theo dõi", "deadline", "priority"],
+    "tags": [
+      "task",
+      "to-do",
+      "công việc",
+      "theo dõi",
+      "deadline",
+      "priority"
+    ],
     "source": "chandoo.org",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/task-tracker.xlsx",
     "icon": "✅",
@@ -156,7 +230,13 @@
     "category": "kinh-doanh",
     "subcategory": "bao-gia",
     "format": "excel",
-    "tags": ["báo giá", "quotation", "quote", "đơn giá", "chào hàng"],
+    "tags": [
+      "báo giá",
+      "quotation",
+      "quote",
+      "đơn giá",
+      "chào hàng"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/quotation.xlsx",
     "icon": "📝"
@@ -169,7 +249,13 @@
     "category": "hanh-chinh",
     "subcategory": "lich",
     "format": "excel",
-    "tags": ["lịch", "calendar", "2025", "ngày lễ", "Việt Nam"],
+    "tags": [
+      "lịch",
+      "calendar",
+      "2025",
+      "ngày lễ",
+      "Việt Nam"
+    ],
     "source": "indzara.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/calendar.xlsx",
     "icon": "📅",
@@ -183,7 +269,13 @@
     "category": "kinh-doanh",
     "subcategory": "doanh-so",
     "format": "excel",
-    "tags": ["bán hàng", "sales", "doanh thu", "KPI", "dashboard"],
+    "tags": [
+      "bán hàng",
+      "sales",
+      "doanh thu",
+      "KPI",
+      "dashboard"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/sales-tracker.xlsx",
     "icon": "📉",
@@ -197,7 +289,13 @@
     "category": "tai-chinh",
     "subcategory": "chi-phi",
     "format": "excel",
-    "tags": ["chi phí", "expense", "theo dõi", "tiêu dùng", "cá nhân"],
+    "tags": [
+      "chi phí",
+      "expense",
+      "theo dõi",
+      "tiêu dùng",
+      "cá nhân"
+    ],
     "source": "vertex42.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/expense.xlsx",
     "icon": "💸"
@@ -210,7 +308,13 @@
     "category": "kinh-doanh",
     "subcategory": "khach-hang",
     "format": "excel",
-    "tags": ["CRM", "khách hàng", "bán hàng", "pipeline", "chăm sóc"],
+    "tags": [
+      "CRM",
+      "khách hàng",
+      "bán hàng",
+      "pipeline",
+      "chăm sóc"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/crm.xlsx",
     "icon": "🤝"
@@ -223,7 +327,13 @@
     "category": "hanh-chinh",
     "subcategory": "hop",
     "format": "excel",
-    "tags": ["biên bản họp", "meeting", "minutes", "action item", "công văn"],
+    "tags": [
+      "biên bản họp",
+      "meeting",
+      "minutes",
+      "action item",
+      "công văn"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/meeting.xlsx",
     "icon": "📑"
@@ -236,7 +346,13 @@
     "category": "nhan-su",
     "subcategory": "don-tu",
     "format": "excel",
-    "tags": ["nghỉ phép", "leave", "đơn xin nghỉ", "nhân sự", "phê duyệt"],
+    "tags": [
+      "nghỉ phép",
+      "leave",
+      "đơn xin nghỉ",
+      "nhân sự",
+      "phê duyệt"
+    ],
     "source": "indzara.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/leave-form.xlsx",
     "icon": "📄"
@@ -249,7 +365,14 @@
     "category": "ca-nhan",
     "subcategory": "thoi-quen",
     "format": "excel",
-    "tags": ["thói quen", "habit", "theo dõi", "cá nhân", "streak", "mục tiêu"],
+    "tags": [
+      "thói quen",
+      "habit",
+      "theo dõi",
+      "cá nhân",
+      "streak",
+      "mục tiêu"
+    ],
     "source": "chandoo.org",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/habit.xlsx",
     "icon": "🎯"
@@ -262,7 +385,13 @@
     "category": "tai-chinh",
     "subcategory": "vay",
     "format": "excel",
-    "tags": ["vay", "lãi suất", "trả góp", "amortization", "tài chính"],
+    "tags": [
+      "vay",
+      "lãi suất",
+      "trả góp",
+      "amortization",
+      "tài chính"
+    ],
     "source": "vertex42.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/loan.xlsx",
     "icon": "🏦"
@@ -275,7 +404,14 @@
     "category": "hoc-tap",
     "subcategory": "diem",
     "format": "excel",
-    "tags": ["điểm", "grade", "học sinh", "sinh viên", "GPA", "xếp loại"],
+    "tags": [
+      "điểm",
+      "grade",
+      "học sinh",
+      "sinh viên",
+      "GPA",
+      "xếp loại"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/grade.xlsx",
     "icon": "🎓"
@@ -288,7 +424,13 @@
     "category": "marketing",
     "subcategory": "content",
     "format": "excel",
-    "tags": ["marketing", "content", "calendar", "mạng xã hội", "kế hoạch"],
+    "tags": [
+      "marketing",
+      "content",
+      "calendar",
+      "mạng xã hội",
+      "kế hoạch"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/content-calendar.xlsx",
     "icon": "📢"
@@ -301,7 +443,13 @@
     "category": "ca-nhan",
     "subcategory": "todo",
     "format": "excel",
-    "tags": ["to-do", "việc cần làm", "checkbox", "priority", "hàng ngày"],
+    "tags": [
+      "to-do",
+      "việc cần làm",
+      "checkbox",
+      "priority",
+      "hàng ngày"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/todo.xlsx",
     "icon": "📋"
@@ -314,7 +462,14 @@
     "category": "hanh-chinh",
     "subcategory": "bao-cao",
     "format": "word",
-    "tags": ["báo cáo", "report", "công việc", "tuần", "tháng", "Word"],
+    "tags": [
+      "báo cáo",
+      "report",
+      "công việc",
+      "tuần",
+      "tháng",
+      "Word"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/work-report.docx",
     "icon": "📄"
@@ -327,7 +482,13 @@
     "category": "ca-nhan",
     "subcategory": "cv",
     "format": "word",
-    "tags": ["CV", "xin việc", "hồ sơ", "việc làm", "résumé"],
+    "tags": [
+      "CV",
+      "xin việc",
+      "hồ sơ",
+      "việc làm",
+      "résumé"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/cv.docx",
     "icon": "👔",
@@ -341,7 +502,13 @@
     "category": "hanh-chinh",
     "subcategory": "hop-dong",
     "format": "word",
-    "tags": ["hợp đồng", "lao động", "việc làm", "pháp lý", "Word"],
+    "tags": [
+      "hợp đồng",
+      "lao động",
+      "việc làm",
+      "pháp lý",
+      "Word"
+    ],
     "source": "thuvienphapluat.vn",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/contract.docx",
     "icon": "⚖️"
@@ -354,7 +521,13 @@
     "category": "hanh-chinh",
     "subcategory": "cong-van",
     "format": "word",
-    "tags": ["công văn", "hành chính", "văn bản", "quốc hiệu", "Word"],
+    "tags": [
+      "công văn",
+      "hành chính",
+      "văn bản",
+      "quốc hiệu",
+      "Word"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/official-letter.docx",
     "icon": "📜"
@@ -367,7 +540,13 @@
     "category": "marketing",
     "subcategory": "brief",
     "format": "word",
-    "tags": ["brief", "thiết kế", "dự án", "marketing", "yêu cầu"],
+    "tags": [
+      "brief",
+      "thiết kế",
+      "dự án",
+      "marketing",
+      "yêu cầu"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/brief.docx",
     "icon": "✍️"
@@ -380,7 +559,12 @@
     "category": "hanh-chinh",
     "subcategory": "lich",
     "format": "excel",
-    "tags": ["lịch làm việc", "schedule", "tuần", "phòng họp"],
+    "tags": [
+      "lịch làm việc",
+      "schedule",
+      "tuần",
+      "phòng họp"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/schedule.xlsx",
     "icon": "📅"
@@ -393,7 +577,13 @@
     "category": "hoc-tap",
     "subcategory": "ke-hoach",
     "format": "excel",
-    "tags": ["học tập", "study", "kế hoạch", "lịch học", "ôn thi"],
+    "tags": [
+      "học tập",
+      "study",
+      "kế hoạch",
+      "lịch học",
+      "ôn thi"
+    ],
     "source": "chandoo.org",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/study-planner.xlsx",
     "icon": "📚"
@@ -406,7 +596,13 @@
     "category": "quan-ly-du-an",
     "subcategory": "rui-ro",
     "format": "excel",
-    "tags": ["rủi ro", "risk", "dự án", "đánh giá", "mitigation"],
+    "tags": [
+      "rủi ro",
+      "risk",
+      "dự án",
+      "đánh giá",
+      "mitigation"
+    ],
     "source": "projectmanager.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/risk.xlsx",
     "icon": "⚠️"
@@ -419,7 +615,13 @@
     "category": "kinh-doanh",
     "subcategory": "nha-cung-cap",
     "format": "excel",
-    "tags": ["nhà cung cấp", "vendor", "supplier", "mua hàng", "procurement"],
+    "tags": [
+      "nhà cung cấp",
+      "vendor",
+      "supplier",
+      "mua hàng",
+      "procurement"
+    ],
     "source": "smartsheet.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/vendor.xlsx",
     "icon": "🏭"
@@ -432,7 +634,13 @@
     "category": "ca-nhan",
     "subcategory": "suc-khoe",
     "format": "excel",
-    "tags": ["fitness", "sức khỏe", "tập thể dục", "cân nặng", "BMI"],
+    "tags": [
+      "fitness",
+      "sức khỏe",
+      "tập thể dục",
+      "cân nặng",
+      "BMI"
+    ],
     "source": "vertex42.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/excel/fitness.xlsx",
     "icon": "💪"
@@ -445,7 +653,13 @@
     "category": "ca-nhan",
     "subcategory": "cv",
     "format": "word",
-    "tags": ["thư xin việc", "cover letter", "việc làm", "ứng tuyển", "Word"],
+    "tags": [
+      "thư xin việc",
+      "cover letter",
+      "việc làm",
+      "ứng tuyển",
+      "Word"
+    ],
     "source": "microsoft.com",
     "fileUrl": "https://github.com/sslakd/Jason-hut/raw/main/van-phong/templates/word/cover-letter.docx",
     "icon": "✉️"
