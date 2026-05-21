@@ -2,15 +2,15 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0f172a;
-  --bg-card: #1e293b;
-  --bg-hover: #334155;
-  --text: #e2e8f0;
-  --text-muted: #94a3b8;
-  --text-dim: #64748b;
-  --accent: #8b5cf6;
-  --accent-light: #a78bfa;
-  --border: #334155;
+  --bg: #f0fdf4;
+  --bg-card: #ffffff;
+  --bg-hover: #dcfce7;
+  --text: #14532d;
+  --text-muted: #166534;
+  --text-dim: #4a7c59;
+  --accent: #16a34a;
+  --accent-light: #22c55e;
+  --border: #bbf7d0;
   --radius: 10px;
 }
 
