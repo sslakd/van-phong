@@ -14,8 +14,69 @@
   // ===== Normalize text for search =====
   function normalize(str) {
     return str.toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // bỏ dấu
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .replace(/[^a-z0-9\s]/g, ' ');
+  }
+
+  // ===== Detail modal =====
+  function showModal(t) {
+    const existing = document.getElementById('templateModal');
+    if (existing) existing.remove();
+
+    const badgeClass = t.format === 'excel' ? 'badge-excel' : 'badge-word';
+    const badgeLabel = t.format === 'excel' ? 'Excel' : 'Word';
+    const tagsHTML = t.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+
+    const overlay = document.createElement('div');
+    overlay.id = 'templateModal';
+    overlay.className = 'modal-overlay';
+    overlay.innerHTML = `
+      <div class="modal">
+        <button class="modal-close" id="modalClose">✕</button>
+        <div class="modal-body">
+          <div class="modal-icon">${t.icon}</div>
+          <h2 class="modal-title">${t.name}</h2>
+          <p class="modal-title-en">${t.nameEn}</p>
+          <span class="template-badge ${badgeClass}" style="margin:8px 0 16px">${badgeLabel}</span>
+          <p class="modal-desc">${t.description}</p>
+          <div class="modal-tags">${tagsHTML}</div>
+          <div class="modal-meta">
+            <span>📂 ${t.subcategory} · ${t.source}</span>
+          </div>
+          <div class="modal-actions">
+            <a href="${t.fileUrl}" class="btn-download" target="_blank" download>
+              ⬇️ Tải file
+            </a>
+            <button class="btn-secondary" id="modalClose2">Đóng</button>
+          </div>
+        </div>
+        <div class="modal-preview">
+          <div class="preview-placeholder">
+            <div class="preview-icon">${t.icon}</div>
+            <p class="preview-name">${t.name}</p>
+            <p class="preview-label">Template ${badgeLabel}</p>
+            <div class="preview-table">
+              <div class="preview-row"><span>📋 Dòng dữ liệu mẫu</span></div>
+              <div class="preview-row alt"><span>📋 Công thức tự động</span></div>
+              <div class="preview-row"><span>🎨 Style xanh lá thống nhất</span></div>
+              <div class="preview-row alt"><span>📄 Sẵn sàng in ấn</span></div>
+            </div>
+            <p style="color:#4a7c59;font-size:0.75rem;margin-top:8px;">File thật — tải về và mở ngay</p>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+    document.body.style.overflow = 'hidden';
+
+    // Close handlers
+    function closeModal() { overlay.remove(); document.body.style.overflow = ''; }
+    document.getElementById('modalClose').addEventListener('click', closeModal);
+    document.getElementById('modalClose2').addEventListener('click', closeModal);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) closeModal(); });
+    document.addEventListener('keydown', function escHandler(e) {
+      if (e.key === 'Escape') { closeModal(); document.removeEventListener('keydown', escHandler); }
+    });
   }
 
   // ===== Render template card =====
@@ -45,11 +106,21 @@
           <span class="template-badge ${badgeClass}">${badgeLabel}</span>
           <span class="template-source">${t.source}</span>
         </div>
-        <a href="${t.fileUrl}" class="btn-download" target="_blank" download>
-          ⬇️ Tải
-        </a>
+        <button class="btn-detail">📋 Chi tiết</button>
       </div>
     `;
+
+    // Click handlers
+    card.addEventListener('click', (e) => {
+      if (!e.target.closest('.btn-detail') && !e.target.closest('.btn-download')) {
+        showModal(t);
+      }
+    });
+    card.querySelector('.btn-detail').addEventListener('click', (e) => {
+      e.stopPropagation();
+      showModal(t);
+    });
+
     return card;
   }
 
@@ -59,19 +130,14 @@
     const qWords = q ? q.split(/\s+/).filter(w => w.length > 0) : [];
 
     const filtered = TEMPLATES.filter(t => {
-      // Category filter
       if (currentCategory !== 'all' && t.category !== currentCategory) return false;
-
-      // Search filter
       if (qWords.length > 0) {
         const haystack = normalize(`${t.name} ${t.nameEn} ${t.description} ${t.tags.join(' ')}`);
         return qWords.every(word => haystack.includes(word));
       }
-
       return true;
     });
 
-    // Render
     if (filtered.length === 0) {
       templateContainer.innerHTML = `
         <div class="no-results">
@@ -87,7 +153,6 @@
       templateContainer.innerHTML = '';
       templateContainer.appendChild(grid);
     }
-
     resultCount.textContent = `${filtered.length} mẫu biểu`;
   }
 
