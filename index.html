@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>văn phòng — Mẫu biểu văn phòng miễn phí</title>
+  <meta name="description" content="Tổng hợp template Excel, Word miễn phí cho công việc văn phòng. Tài chính, nhân sự, quản lý dự án, kinh doanh, hành chính.">
+  <link rel="icon" href="/van-phong/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/van-phong/assets/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="/van-phong/" class="logo">
+            <span class="logo-icon">📁</span>
+            <span class="logo-text">văn phòng</span>
+          </a>
+          <p class="tagline">Mẫu biểu văn phòng miễn phí</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Template cho công việc văn phòng</h1>
+        <p class="hero-sub">Excel, Word — miễn phí, sẵn sàng tải về và sử dụng ngay</p>
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="searchInput" class="search-input"
+            placeholder="Tìm theo tên, mô tả... ví dụ: bảng lương, kế hoạch, task, báo giá..."
+            autocomplete="off">
+          <button id="searchClear" class="search-clear hidden">✕</button>
+        </div>
+        <div class="category-chips" id="categoryChips">
+          <button class="chip active" data-category="all">📋 Tất cả</button>
+          <button class="chip" data-category="tai-chinh">💰 Tài chính</button>
+          <button class="chip" data-category="nhan-su">👥 Nhân sự</button>
+          <button class="chip" data-category="quan-ly-du-an">📊 Quản lý dự án</button>
+          <button class="chip" data-category="kinh-doanh">🏪 Kinh doanh</button>
+          <button class="chip" data-category="hanh-chinh">📝 Hành chính</button>
+          <button class="chip" data-category="marketing">📢 Marketing</button>
+          <button class="chip" data-category="ca-nhan">👤 Cá nhân</button>
+          <button class="chip" data-category="hoc-tap">📚 Học tập</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results info -->
+    <section class="results-bar" id="resultsBar">
+      <div class="container">
+        <span id="resultCount">34 mẫu biểu</span>
+      </div>
+    </section>
+
+    <!-- Template grid -->
+    <section class="templates" id="templatesGrid">
+      <div class="container" id="templatesContainer">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>📁 <strong>văn phòng</strong> — tổng hợp template miễn phí từ Microsoft Create, Vertex42, Smartsheet, Chandoo, Indzara, ProjectManager</p>
+        <p>Các file thuộc sở hữu của tác giả gốc. Trang chỉ tổng hợp link và giới thiệu.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/van-phong/data/templates.js"></script>
+  <script src="/van-phong/assets/app.js"></script>
+</body>
+</html>
