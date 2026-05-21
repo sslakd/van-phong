@@ -51,17 +51,9 @@
           </div>
         </div>
         <div class="modal-preview">
-          <div class="preview-placeholder">
-            <div class="preview-icon">${t.icon}</div>
-            <p class="preview-name">${t.name}</p>
-            <p class="preview-label">Template ${badgeLabel}</p>
-            <div class="preview-table">
-              <div class="preview-row"><span>📋 Dòng dữ liệu mẫu</span></div>
-              <div class="preview-row alt"><span>📋 Công thức tự động</span></div>
-              <div class="preview-row"><span>🎨 Style xanh lá thống nhất</span></div>
-              <div class="preview-row alt"><span>📄 Sẵn sàng in ấn</span></div>
-            </div>
-            <p style="color:#4a7c59;font-size:0.75rem;margin-top:8px;">File thật — tải về và mở ngay</p>
+          <div class="preview-wrap">
+            <div class="preview-badge ${badgeClass}">${badgeLabel}</div>
+            <img src="/van-phong/screenshots/screen_${t.id}.png" alt="${t.name}" class="preview-img" loading="lazy" />
           </div>
         </div>
       </div>
